@@ -6,7 +6,4 @@ employess=[{"vjinv":{"empid" : 1 , "emp_name":"Rakesh","emp_age":25,"emp_salary"
 ]
 for i in employess:	
 	print(i["vjinv"])
-employess[0]["vjinv"]['emp_salary']+=300000
-print("Updated list")
-for i in employess:	
-	print(i["vjinv"])
+print("\n\n---------end---------\n")
