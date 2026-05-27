@@ -25,7 +25,7 @@ for i in emp2:
 	print(i["vjiss"]["empid"], "\t", i["vjiss"]["emp_name"], "\t", i["vjiss"]["emp_dep"], "\t", i["vjiss"]["emp_salary"])
 
 print("\n\n_____________________________________RESIGNED EMPLOYEES________________________________\n\n")
-print("EMPID", "\t", "NAME\t", "\t", "DEPARTMENT\t", "\t", "\tSALARY")
+print("EMPID", "\t", "NAME\t", "\t", "DEPARTMENT\t", "\t\t", "\tSALARY")
 print("-" * 60)
 for i in emp3:
 	print(i["vjiss"]["empid"], "\t", i["vjiss"]["emp_name"],"\t\t", i["vjiss"]["emp_dep"], "\t\t", i["vjiss"]["emp_salary"])
