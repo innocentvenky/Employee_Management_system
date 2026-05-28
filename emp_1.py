@@ -25,4 +25,4 @@ for i in employess:
 		print("Employee  eligible for work \t\t\t",i["vjiss"]["emp_name"], "\t\t",i["vjiss"]["empid"])
 	else:
 		print("Employee not eligible for work \t\t\t",i["vjiss"]["emp_name"], "\t\t",i["vjiss"]["empid"])
-print("\n\n---------end---------\n\n")
+print("\n---------end---------\n\n")
